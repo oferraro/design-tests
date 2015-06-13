@@ -1,0 +1,20 @@
+@import url(css/normalize.css);
+@import url(css/grid.css);
+@import url(css/base.css);
+
+/* Estilos del proyecto */
+
+/*****************************
+	MEDIA QUERIES BREAKPOINTS
+*****************************/
+
+/* para pantallas menores o iguales a 1024px de ancho */
+@media only screen and (max-width: 1024px) {
+	
+}
+@media only screen and (max-width: 768px){
+	
+}
+@media only screen and (max-width: 480px) {
+	
+}
