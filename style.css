@@ -4,6 +4,63 @@
 
 /* Estilos del proyecto */
 
+.title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid silver;
+	text-align: center;
+	line-height: 80px;	
+	font-size: 40px;
+	font-weight: bold;
+	color: silver;
+}
+
+.theMenu {
+	line-height: 40px;
+}
+
+.theMenu a{
+	color: grey; 
+}
+
+.theMenu a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.images img {
+	border: 2px solid silver;
+	width: 100%;
+}
+
+.txtCols {
+	text-align: justify;
+}
+
+.txtCols p {
+	overflow: hidden;
+}
+
+.banner {
+	width: 384px;
+	margin: 10px auto 20px auto;
+	-webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
+
+.separation {
+	height: 80px; 
+}
+
+.theFooter {
+	font-weight: bold;
+	background: black;
+	color: white;
+	width: 100%;
+	line-height: 40px;
+	position: fixed;
+	bottom: 0;
+}
+
 /*****************************
 	MEDIA QUERIES BREAKPOINTS
 *****************************/
