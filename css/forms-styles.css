@@ -1,0 +1,43 @@
+.container {
+	margin-bottom: 80px;
+}
+.form-buy-centered {
+	display: flex;
+	justify-content: center;
+}
+
+.form-buy {
+	border: 2px solid red;
+	border-radius: 20px;
+	background-color: #ff3;
+	padding: 30px;
+	width: 400px;
+}
+
+.form-buy label {
+	margin: 5px 0;
+	text-transform: capitalize;
+}
+
+.form-buy .anydate-text {
+	display: inline-block;
+}
+
+.form-buy input[type="email"], .form-buy select, .form-buy input[type="text"]{
+	padding-left: 2px;
+	background-color: #FFFFE5;
+	border: 1px solid red;
+}
+
+.form-buy  textarea { 
+	padding: 10px;
+	border-radius: 5px;
+	resize: none;
+	background: #FFFFE5; 
+	border: 1px solid red;
+}
+
+.form-submit {
+	float: right;
+	clear: both;
+}
